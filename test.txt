@@ -1,4 +1,0 @@
-hello world
-hello python
-hello jupyter
-hello spark
