@@ -30,7 +30,7 @@ spark = SparkSession.builder.master("spark://10.0.120.106:7077").appName("spark_
 # conf = SparkConf().setAppName("spark_tri_element").setMaster("spark://m120p106:6066")
 # sc = SparkContext(conf=conf)
 # spark = SparkSession.builder.master("spark://m120p106:6066").appName("spark_tri_element").config("", "").getOrCreate()
-
+  
 
 
 def getData(dataPath):

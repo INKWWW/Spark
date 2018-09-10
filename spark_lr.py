@@ -11,7 +11,7 @@ bdf.show()
 blor = LogisticRegression(maxIter=5, regParam=0.01,weightCol='weight')
 blorModel = blor.fit(bdf)
 blorModel.coefficients
-blorModel.intercept
+blorModel.intercept  
 
 #多元Logistic回归
 mdf = sc.parallelize([Row(label=1.0,weight=2.0, features=Vectors.dense(1.0)),Row(label=0.0,weight=2.0, features=Vectors.sparse(1,[],[])),Row(label=2.,weight=2.0, features=Vectors.dense(3.0))]).toDF()
@@ -25,7 +25,7 @@ test0=sc.parallelize([Row(features=Vectors.dense(-1.0))]).toDF()
 result = blorModel.transform(test0).head()
 result.prediction
 
-result.probability
+result.probability  
 result.rawPrediction
 
 test1 = sc.parallelize([Row(features=Vectors.sparse(1,[0],[1.0]))]).toDF()
