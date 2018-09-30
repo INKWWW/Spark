@@ -292,13 +292,13 @@
 [debug] == resolving dependencies default#helloscala$sources;0.1->org.scala-lang#scala-reflect;2.11.8 [scala-tool->master]
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.11.8!scala-library.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4!scala-parser-combinators_2.11.jar(src)
 [debug] 	[NOT REQUIRED] jline#jline;2.12.1!jline.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.8!scala-reflect.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.11.8!scala-compiler.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.11.8!scala-library.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.4!scala-xml_2.11.jar(src)
-[debug] :: resolution report :: resolve 50ms :: artifacts dl 5ms
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.11.8!scala-compiler.jar(src)
+[debug] :: resolution report :: resolve 89ms :: artifacts dl 7ms
 [debug] 	report for default#helloscala$sources;0.1 compile produced in C:\Wang Hanmo\scripts\spark\scala_test\HelloScala\target\scala-2.11\resolution-cache\reports\default-helloscala$sources-compile.xml
 [debug] 	report for default#helloscala$sources;0.1 runtime produced in C:\Wang Hanmo\scripts\spark\scala_test\HelloScala\target\scala-2.11\resolution-cache\reports\default-helloscala$sources-runtime.xml
 [debug] 	report for default#helloscala$sources;0.1 test produced in C:\Wang Hanmo\scripts\spark\scala_test\HelloScala\target\scala-2.11\resolution-cache\reports\default-helloscala$sources-test.xml
@@ -310,4 +310,4 @@
 [debug] 	report for default#helloscala$sources;0.1 plugin produced in C:\Wang Hanmo\scripts\spark\scala_test\HelloScala\target\scala-2.11\resolution-cache\reports\default-helloscala$sources-plugin.xml
 [debug] 	report for default#helloscala$sources;0.1 pom produced in C:\Wang Hanmo\scripts\spark\scala_test\HelloScala\target\scala-2.11\resolution-cache\reports\default-helloscala$sources-pom.xml
 [debug] 	report for default#helloscala$sources;0.1 scala-tool produced in C:\Wang Hanmo\scripts\spark\scala_test\HelloScala\target\scala-2.11\resolution-cache\reports\default-helloscala$sources-scala-tool.xml
-[debug] 	resolve done (50ms resolve - 5ms download)
+[debug] 	resolve done (89ms resolve - 7ms download)

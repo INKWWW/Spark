@@ -4,7 +4,7 @@
 		module="helloscala$sources"
 		revision="0.1"
 		status="integration"
-		publication="20180929155804"
+		publication="20180930093113"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>
